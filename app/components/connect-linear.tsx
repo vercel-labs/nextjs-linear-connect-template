@@ -15,9 +15,8 @@ export function ConnectLinear({ error }: { error?: string }) {
           Connect your Linear workspace
         </h1>
         <p className="mx-auto mt-3 max-w-md text-sm leading-relaxed text-neutral-400">
-          This demo fetches a short-lived Linear token through Vercel Connect —
-          no API keys are stored anywhere. Authorize once to see your upcoming
-          deadlines, SLA risk, and assigned issues.
+          Authorize your Linear to see your upcoming deadlines, SLA risk, and
+          assigned issues.
         </p>
 
         {error ? (
